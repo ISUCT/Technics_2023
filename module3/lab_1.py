@@ -6,4 +6,15 @@ while i < 10:
     else:
         print(f"{i} - нечетное")
     i += 1 # i = i + 1
+
 print("Цикл закончил работу")
+
+for i in range(0, 10, 2):
+    print(i)
+
+n = 6
+res = 1
+for i in range(1, n+1):
+    res *= i
+
+print(f"!{n} = {res}")
