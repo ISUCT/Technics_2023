@@ -12,6 +12,8 @@ print("Цикл закончил работу")
 for i in range(0, 10, 2):
     print(i)
 
+
+# Вычисление факториала
 n = 6
 res = 1
 for i in range(1, n+1):
